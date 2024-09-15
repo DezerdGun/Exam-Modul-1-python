@@ -6,26 +6,18 @@
 
 Напишите функцию is_even, которая принимает число и возвращает True, если число четное, и False в противном случае.
 
-python
-Copy code
 def is_even(number):
     # Ваш код здесь
 Создайте класс Car, который имеет следующие атрибуты: make, model и year. Добавьте метод display_info, который выводит информацию о машине в формате "Make: <make>, Model: <model>, Year: <year>".
 
-python
-Copy code
 class Car:
     # Ваш код здесь
 Напишите функцию filter_positive_numbers, которая принимает список чисел и возвращает список, содержащий только положительные числа из исходного списка.
 
-python
-Copy code
 def filter_positive_numbers(numbers):
     # Ваш код здесь
 Создайте класс Person, который имеет атрибуты name и age. Реализуйте метод greet, который выводит строку "Hello, my name is <name> and I am <age> years old". Также создайте дочерний класс Student, который добавляет атрибут student_id и переопределяет метод greet, чтобы включать идентификатор студента в вывод. Напишите программу, которая создает объект класса Student и вызывает метод greet.
 
-python
-Copy code
 class Person:
     # Ваш код здесь
 
@@ -35,8 +27,6 @@ class Student(Person):
 # Пример использования
 Напишите функцию count_characters, которая принимает строку и возвращает словарь, где ключи - это уникальные символы строки, а значения - количество вхождений этих символов. Пример использования:
 
-python
-Copy code
 def count_characters(string):
     # Ваш код здесь
 
@@ -45,14 +35,10 @@ def count_characters(string):
 
 Проверьте, является ли заданная строка палиндромом. Создайте метод для этого.
 
-python
-Copy code
 def is_palindrome(s):
     # Ваш код здесь
 Реализуйте класс BankAccount, который позволяет выполнять следующие операции: пополнение счета (deposit), снятие денег (withdraw) и проверка баланса (get_balance).
 
-python
-Copy code
 class BankAccount:
     # Ваш код здесь
 Часть 3: Git
